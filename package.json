@@ -2,7 +2,7 @@
   "name": "google_popular_places",
   "version": "1.0.0",
   "description": "scrapper to fetch popular google times as histogram values  for google places and save as JSON ",
-  "main": "app.js",
+  "main": "index.js",
   "dependencies": {
     "puppeteer": "^2.0.0"
   },
