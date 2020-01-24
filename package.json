@@ -1,0 +1,27 @@
+{
+  "name": "google_popular_places",
+  "version": "1.0.0",
+  "description": "scrapper to fetch popular google times as histogram values  for google places and save as JSON ",
+  "main": "app.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/schairez/google_popular_places.git"
+  },
+  "keywords": [
+    "scrapper",
+    "google",
+    "places",
+    "puppeteer"
+  ],
+  "author": "\"Sergio Chairez <schairezv@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/schairez/google_popular_places/issues"
+  },
+  "homepage": "https://github.com/schairez/google_popular_places#readme"
+}
