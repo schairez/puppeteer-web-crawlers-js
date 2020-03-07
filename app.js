@@ -31,7 +31,7 @@ async function run(queryString) {
   const d = { query: queryString };
   console.log(full_query);
   try {
-    puppeteer.launch().then(async browser => {
+    puppeteer.launch({ headless: false }).then(async browser => {
       const page = await browser.newPage();
       await page.goto(full_query);
       const location_name = await page.$eval(
@@ -75,7 +75,7 @@ async function run(queryString) {
       // console.log(d);
       const doc_name = docSaveQueryFormat(queryString);
       fs.writeFileSync(
-        `response-${doc_name}.json`,
+        `response-${doc_name}-${new Date().getTime()}.json`,
         JSON.stringify(d, null, 2),
         "utf-8"
       );
