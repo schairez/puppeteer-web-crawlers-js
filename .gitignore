@@ -9,6 +9,11 @@ lerna-debug.log*
 # Diagnostic reports (https://nodejs.org/api/report.html)
 report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
 
+forKat.js
+forKatv2.js 
+weixscrapper.js
+
+weixin_files/
 # Runtime data
 pids
 *.pid
@@ -105,3 +110,4 @@ dist
 
 # Stores VSCode versions used for testing VSCode extensions
 .vscode-test
+.DS_Store
